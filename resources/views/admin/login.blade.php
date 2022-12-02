@@ -28,7 +28,7 @@
                 </ul>
             </div>
         @endif
-        <form action="{{route('login')}}" class="form" method="post">
+        <form action="{{route('Login')}}" class="form" method="post">
             @csrf
             <div class="form-item">
                 <label class="login-icon">
